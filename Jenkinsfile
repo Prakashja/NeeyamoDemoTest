@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Sonar-Publish') {
           steps {
-            sh 'mvn sonar:sonar -Dsonar.host.url=http://ip172-18-0-29-bohfg9833cq000fnk200-9000.direct.labs.play-with-docker.com -Dsonar.login=3eca92d7e04ada420e460fbd108b05ff5a5905df'
+            sh 'mvn sonar:sonar -Dsonar.host.url=http://ip172-18-0-17-bohv9ob8akr000fo4qc0-9000.direct.labs.play-with-docker.com -Dsonar.login=1c3d7ae3912c4a3243188bd930eb8acb7eb91115'
           }
         }
         stage('Docker-Build') {
